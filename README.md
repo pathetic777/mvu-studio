@@ -58,7 +58,12 @@ MVU Studio 是一个探索大语言模型驱动 2D 游戏动态世界生成的�
 | **W / A / S / D**（或方向键） | 控制英雄单位移动 |
 | **1 / 2 / 3**（或 **J / K / L**） | 触发对应槽位的动作技能 |
 | **Tab** | 呼出 / 隐藏多智能体推理控制面板 |
+---
 
+### 💡 Pro Tips / 提示词编写建议
+
+* **En:** Due to the high complexity and spatial details required by the pipeline, crafting prompts manually often yields sub-optimal results. It is **strongly recommended to let AI generate and expand your prompts** before executing the agents to achieve the best visuals, asset fidelity, and balance.
+* **中:** 由于本引擎管线涉及高密度的空间细节与复杂的多智能体规则，人工手写提示词往往难以兼顾全局并容易导致效果欠佳。**强烈建议直接让 AI 协助构思并扩写详细提示词**，再注入各 Agent 运行，以获得最佳的矢量呈现与数值平衡表现。
 #---
 
 ## ⚖️ Intellectual Property & Fair Use Disclaimer / 知识产权与合理使用声明
@@ -80,3 +85,9 @@ https://github.com/user-attachments/assets/2c93b75e-ead1-4127-973a-df6b53b8390e
 
 - **English**: This project is licensed under a **Dual-Licensing Model**. Free for non-commercial, educational, and open-source use under AGPL-3.0. Any commercial use or closed-source integration requires a separate commercial license from the author.
 - **中文**: 本项目采用**双重许可协议（Dual-Licensing）**。个人学习、学术研究及非商业开源使用完全免费（遵循 AGPL-3.0 协议）；任何涉及商业盈利、商业闭源集成或收费服务的使用，均须取得原作者的书面商业授权。
+---
+
+### 🤝 Feedback & Contributions / 交流与反馈
+
+* **En:** Feel free to open an issue or start a discussion if you have any suggestions, feedback, or ideas for optimization!
+* **中:** 如果你有任何优化思路、改进建议或发现了问题，非常欢迎在 GitHub 提交 Issue 或参与讨论！
